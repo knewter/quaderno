@@ -1,4 +1,3 @@
-
 # quaderno
 
 A mini form templating system in javascript.
@@ -126,12 +125,12 @@ You can bind to any quaderno root a callback :
 
 ## the javascript appendix
 
-  box customers.*^
-    text_input .name
-    text_input .city class=city
+    box customers.*^
+      text_input .name
+      text_input .city class=city
 
-  javascript
-    $('.city').hide();
+    javascript
+      $('.city').hide();
 
 
 ## extending (custom types)
